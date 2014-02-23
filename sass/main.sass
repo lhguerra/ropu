@@ -45,7 +45,7 @@ $yellow:      #FAEF4E
 
 body
   margin: 0
-  background-image: url('http://farm4.staticflickr.com/3391/3637758402_0246a4099d_o.jpg')
+  background-image: url('../images/redcups.jpg')
   background-attachment: fixed
   background-size: cover
 
@@ -58,9 +58,14 @@ h1
   margin: 0
   display: block
 
-h3
+h2
   font-size: 2em
   font-weight: 400
+  margin: 0
+
+h3
+  font-size: 2em
+  font-weight: 300
   margin: 0
 
 // Header Styles
@@ -83,8 +88,19 @@ header
 // Main Content Styles
 section
   +flexbox
-  background-color: rgba(255,255,255,0.4)
-  width: 80%
+  background-color: rgba(0,0,0,0.4)
+  width: 60%
   margin: 40px auto
-  padding: 40px
-  box-shadow: 0 0 5px rgba(0,0,0,0.2)
+  flex-direction: row
+  article
+    display: inline
+    color: white
+    &:first-child
+      width: 65%
+      padding: 40px
+    &:last-child
+      width: 35%
+    img
+      max-width: 100%
+    h2,h3
+      margin: 20px 0
