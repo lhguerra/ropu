@@ -2269,7 +2269,7 @@ section article h2, section article h3 {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003133}}
 section article .download {
-  width: 200px;
+  height: 60px;
   margin: 20px;
   display: inline;
 }
