@@ -2212,6 +2212,5 @@ section {
   width: 80%;
   margin: 40px auto;
   padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px #656566;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
