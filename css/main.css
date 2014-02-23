@@ -266,7 +266,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\000035}}
-.fa-music:before {
+.fa-music:before, section article div:nth-child(6) i:before {
   content: "\f001";
 }
 
@@ -569,7 +569,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\0000368}}
-.fa-map-marker:before {
+.fa-map-marker:before, section article div:nth-child(3) i:before {
   content: "\f041";
 }
 
@@ -1109,7 +1109,8 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\00003180}}
 .fa-group:before,
-.fa-users:before {
+.fa-users:before,
+section article div:nth-child(4) i:before {
   content: "\f0c0";
 }
 
@@ -1825,7 +1826,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\00003341}}
-.fa-dollar:before,
+.fa-dollar:before, section article div:nth-child(5) i:before,
 .fa-usd:before {
   content: "\f155";
 }
@@ -2145,7 +2146,7 @@
   content: "\f196";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000338}}
 * {
   font-family: "Lato", Verdana, Sans-serif;
   font-size: 16px;
@@ -2156,94 +2157,117 @@
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000347}}
 body {
   margin: 0;
-  background-image: url("../images/redcups.jpg");
+  background-image: url("../images/click.jpeg");
   background-attachment: fixed;
   background-size: cover;
+  min-width: 420px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000358}}
 h1 {
   font-size: 3em;
   margin: 0;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000363}}
 h2 {
   font-size: 2em;
   font-weight: 400;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000368}}
 h3 {
   font-size: 2em;
   font-weight: 300;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000373}}
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000378}}
 header {
   width: 100%;
   background-color: #291c3b;
   color: white;
   padding: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000383}}
 header h1 {
   text-align: center;
   font-weight: 300;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000386}}
 header h1 span {
   font-weight: 400;
   font-size: 3rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000389}}
 header h1 i {
   font-size: 3rem;
   margin-right: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000395}}
 section {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.4);
   width: 60%;
   margin: 40px auto;
   flex-direction: row;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003101}}
 section article {
   display: inline;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003104}}
 section article:first-child {
   width: 65%;
   padding: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003107}}
 section article:last-child {
   width: 35%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003109}}
+section article div {
+  width: 20%;
+  min-width: 150px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003123}}
+section article div i {
+  font-size: 5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003125}}
+section article div h4 {
+  text-align: center;
+  margin: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003128}}
 section article img {
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003130}}
 section article h2, section article h3 {
   margin: 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003133}}
 footer {
   background-color: #656566;
   position: fixed;
@@ -2251,17 +2275,69 @@ footer {
   width: 100%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003139}}
 footer a {
   color: #291c3b;
   font-size: 2rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003142}}
 footer a i {
   font-size: 2rem;
   margin: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003151}}
 footer a a {
   display: block;
+}
+
+@media (max-width: 1780px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003156}}
+  section {
+    width: 70%;
+  }
+}
+@media (max-width: 1530px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003160}}
+  section {
+    width: 80%;
+  }
+}
+@media (max-width: 1340px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003164}}
+  section {
+    width: 90%;
+  }
+}
+@media (max-width: 1190px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003168}}
+  section {
+    width: 95%;
+  }
+}
+@media (max-width: 1130px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003174}}
+  section article div {
+    width: 40%;
+  }
+}
+@media (max-width: 630px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003178}}
+  section {
+    flex-direction: column;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003180}}
+  section article {
+    width: 100% !important;
+  }
+}
+@media (max-width: 430px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003184}}
+  section {
+    flex-direction: column;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003187}}
+  section article {
+    width: 100% !important;
+  }
 }

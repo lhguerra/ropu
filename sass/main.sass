@@ -33,6 +33,7 @@ $yellow:      #FAEF4E
 // External Stylesheets
 @import ../Font-Awesome-master/scss/font-awesome
 
+
 // General Styles
 *
   font-family: "Lato", Verdana, Sans-serif
@@ -45,9 +46,10 @@ $yellow:      #FAEF4E
 
 body
   margin: 0
-  background-image: url('../images/redcups.jpg')
+  background-image: url('../images/click.jpeg')
   background-attachment: fixed
   background-size: cover
+  min-width: 420px
 
 i
   @extend .fa
@@ -67,6 +69,10 @@ h3
   font-size: 2em
   font-weight: 300
   margin: 0
+
+h4
+  font-size: 1.5em
+  font-weight: 400
 
 // Header Styles
 header
@@ -88,7 +94,7 @@ header
 // Main Content Styles
 section
   +flexbox
-  background-color: rgba(0,0,0,0.4)
+  // background-color: rgba(0,0,0,0.4)
   width: 60%
   margin: 40px auto
   flex-direction: row
@@ -100,6 +106,25 @@ section
       padding: 40px
     &:last-child
       width: 35%
+    div
+      width: 20%
+      min-width: 150px
+      display: inline-block
+      text-align: center
+      margin: 20px 0
+      &:nth-child(3) i
+        @extend .fa-map-marker
+      &:nth-child(4) i
+        @extend .fa-users
+      &:nth-child(5) i
+        @extend .fa-dollar
+      &:nth-child(6) i
+        @extend .fa-music
+      i
+        font-size: 5em
+      h4
+        text-align: center
+        margin: 0 5px
     img
       max-width: 100%
     h2,h3
@@ -125,3 +150,39 @@ footer
       @extend .fa-google-plus
     a
       display: block
+
+// Media Queries
+@media (max-width: 1780px)
+  section
+    width: 70%
+
+@media (max-width: 1530px)
+  section
+    width: 80%
+
+@media (max-width: 1340px)
+  section
+    width: 90%
+
+@media (max-width: 1190px)
+  section
+    width: 95%
+
+@media (max-width: 1130px)
+  section
+    article
+      div
+        width: 40%
+
+@media (max-width: 630px)
+  section
+    flex-direction: column
+    article
+      width: 100% !important
+
+@media (max-width: 430px)
+  section
+    flex-direction: column
+    width: 100%
+    article
+      width: 100% !important
