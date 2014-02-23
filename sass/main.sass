@@ -104,3 +104,24 @@ section
       max-width: 100%
     h2,h3
       margin: 20px 0
+
+footer
+  background-color: $gray
+  position: fixed
+  bottom: 0
+  width: 100%
+  text-align: center
+  a
+    color: $dark-purple
+    font-size: 2rem
+    i
+      font-size: 2rem
+      margin: 10px
+    &:first-child i
+      @extend .fa-facebook
+    &:nth-child(2) i
+      @extend .fa-twitter
+    &:nth-child(3) i
+      @extend .fa-google-plus
+    a
+      display: block

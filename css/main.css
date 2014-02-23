@@ -988,12 +988,12 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\00003155}}
-.fa-twitter:before {
+.fa-twitter:before, footer a:nth-child(2) i:before {
   content: "\f099";
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\00003156}}
-.fa-facebook:before {
+.fa-facebook:before, footer a:first-child i:before {
   content: "\f09a";
 }
 
@@ -1213,7 +1213,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/Font-Awesome-master\/scss\/_icons\.scss}line{font-family:\00003204}}
-.fa-google-plus:before {
+.fa-google-plus:before, footer a:nth-child(3) i:before {
   content: "\f0d5";
 }
 
@@ -2241,4 +2241,27 @@ section article img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003105}}
 section article h2, section article h3 {
   margin: 20px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003108}}
+footer {
+  background-color: #656566;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003114}}
+footer a {
+  color: #291c3b;
+  font-size: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003117}}
+footer a i {
+  font-size: 2rem;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/ropu\/sass\/main\.sass}line{font-family:\00003126}}
+footer a a {
+  display: block;
 }
