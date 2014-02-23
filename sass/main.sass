@@ -1,0 +1,91 @@
+// Overwritten Variables
+$fa-font-path:   "../Font-Awesome-master/fonts"
+
+// Color Variables
+$gray:        #656566
+$nude:        #D4CF94
+$dark-purple: #291C3B
+$purple:      #402363
+$yellow:      #FAEF4E
+
+// Flexbox mixins
+@mixin flexbox() 
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+
+@mixin flex($values) 
+  -webkit-box-flex: $values
+  -moz-box-flex:  $values
+  -webkit-flex:  $values
+  -ms-flex:  $values
+  flex:  $values
+
+@mixin order($val) 
+  -webkit-box-ordinal-group: $val  
+  -moz-box-ordinal-group: $val     
+  -ms-flex-order: $val     
+  -webkit-order: $val  
+  order: $val
+
+// External Stylesheets
+@import ../Font-Awesome-master/scss/font-awesome
+
+// General Styles
+*
+  font-family: "Lato", Verdana, Sans-serif
+  font-size: 16px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing:    border-box
+  -ms-box-sizing:     border-box
+  -o-box-sizing:      border-box
+  box-sizing:         border-box
+
+body
+  margin: 0
+  background-image: url('http://farm4.staticflickr.com/3391/3637758402_0246a4099d_o.jpg')
+  background-attachment: fixed
+  background-size: cover
+
+i
+  @extend .fa
+
+// Text Styles
+h1
+  font-size: 3em
+  margin: 0
+  display: block
+
+h3
+  font-size: 2em
+  font-weight: 400
+  margin: 0
+
+// Header Styles
+header
+  width: 100%
+  background-color: $dark-purple
+  color: white
+  padding: 20px
+  h1
+    text-align: center
+    font-weight: 300
+    span
+      font-weight: 400
+      font-size: 3rem
+    i
+      @extend .fa-glass
+      font-size: 3rem
+      margin-right: 20px
+
+// Main Content Styles
+section
+  +flexbox
+  background-color: rgba(255,255,255,0.4)
+  width: 80%
+  margin: 40px auto
+  padding: 40px
+  border-radius: 20px
+  box-shadow: 0 0 5px $gray
