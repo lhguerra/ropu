@@ -8,6 +8,9 @@ $dark-purple: #291C3B
 $purple:      #402363
 $yellow:      #FAEF4E
 
+// Style Variables
+$shadow: 2px 2px 2px black
+
 // Flexbox mixins
 @mixin flexbox() 
   display: -webkit-box
@@ -46,7 +49,7 @@ $yellow:      #FAEF4E
 
 body
   margin: 0
-  background-image: url('../images/click.jpeg')
+  background-image: url('../images/background.jpg')
   background-attachment: fixed
   background-size: cover
   min-width: 420px
@@ -95,7 +98,8 @@ header
 // Main Content Styles
 section
   +flexbox
-  // background-color: rgba(0,0,0,0.4)
+  background-color: rgba(0,0,0,0.6)
+  padding: 40px
   width: 60%
   margin: 40px auto
   flex-direction: row
@@ -125,7 +129,22 @@ section
       h4
         text-align: center
         margin: 0 5px
-        text-shadow: 2px 2px 2px black
+        text-shadow: $shadow
+    #learn-more
+      padding: 20px 40px
+      margin-top: 20px
+      font-size: 2em
+      color: $purple
+      background-color: white
+      text-align: center
+      text-decoration: none
+      display: inline-block
+      border-radius: 8px
+      border: 1px solid white
+      box-shadow: 0 0 3px white, 0 0 3px white inset
+      transition: all 600ms
+      &:hover
+        background-color: $nude
     img
       max-width: 100%
     h2,h3
@@ -184,10 +203,15 @@ footer
     flex-direction: column
     article
       width: 100% !important
+      #learn-more
+        display: block
 
 @media (max-width: 430px)
   section
     flex-direction: column
     width: 100%
+    padding: 10px
     article
       width: 100% !important
+      #learn-more
+        display: block
